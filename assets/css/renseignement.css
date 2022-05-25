@@ -1,0 +1,248 @@
+body>div>img:first-child{
+    display: none;
+}
+.first-line{
+    border:none;
+    width: 60%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top:5% ;
+    color:#2d2d2d ;
+}
+.circle{
+    border: 1px solid black ;
+    width: 25px;
+    height: 25px;
+    border-radius:50% ;
+    text-align: center;
+    line-height:25px;
+    margin-right:5% ;
+}
+.square{
+    border: 1px solid black ;
+    width: 100%;
+    height: 780px;
+    background-image: linear-gradient(rgba(225, 71, 86, 0.5),rgba(225, 71, 86, 0.5) ),  url(image-mobile.jpg) ; 
+    border-radius:5px ;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    border-radius:5px 5px  0px  0px ;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.8),rgba(54, 54, 54, 0.8));
+}
+img{
+    width: 145px;
+    height: 25px;
+    margin-left:33% ;
+    margin-top:10px ;
+}
+.progress-bar-vertical{
+    display: none;
+}
+.small-square{
+    border: 1px solid rgb(223, 215, 215) ;
+    width: 80%;
+    height:600px;
+    margin: auto;
+    margin-top:10% ;
+    background-image: linear-gradient(rgba(225, 225, 225, 0.8),rgba(225, 225, 225, 0.8) );
+    border-radius:8px ;
+}
+input{
+   display: block;
+   width: 80%;
+   height: 25px ;
+   margin: auto;
+   margin-top:10%;
+   border-radius:5px ;
+   border: 1px solid #adaaaa;
+   font-family:'Roboto',sans-serif ;    
+}
+
+.selector{
+    border:none ;
+    width: 80%;
+    height: 28px ;
+    margin-left:10% ;
+    margin-top:10%;
+}
+select{
+    width: 100%;
+    height:100%;
+    border: 1px solid #adaaaa;
+    border-radius:5px ;
+    font-family:'Roboto',sans-serif ;    
+}
+
+.last-line{
+    border:none;
+    width: 80%;
+    height: 35px ;
+    display: flex;
+    margin: auto;
+    margin-top:20% ;
+}
+.last-line-square-rigth{
+    border: none;
+    width: 80px;
+    height: 35px ;
+    margin-left:50% ;
+}
+button{
+    width: 100%;
+    height:100%;
+    border-radius:15px;
+    background-color: #ED4C68;
+    border: none;
+    color: white;
+    font-family:'Roboto',sans-serif ;    
+}
+.last-line-square-left{
+    border: none;
+    width: 80px;
+    height: 35px ;
+}
+a{
+    text-decoration: none;
+    color:#2d2d2d ;
+    font-family:'Roboto',sans-serif ;    
+}
+a:hover{
+    color: brown;
+}
+ /*media Queris*/
+
+ @media screen and (min-width:450px) and (max-width:768px) {
+    .square{
+        height: 850px;
+    }
+    .small-square{ 
+        height:670px;
+    }
+ }
+ @media screen  and (min-width:600px){
+    
+    .square{
+        height: 600px;
+    }
+    .small-square{ 
+        height:400px;
+    }
+    input{
+        height: 35px;
+        margin:5% ;
+    }
+   
+    .desktop-first-line{
+        display: flex;
+    }
+    .desktop-second-line{
+        display: flex;
+    }
+    .desktop-third-line{
+        display: flex;
+    }
+    .selector{
+        border:none ;
+        width: 40%;
+        height: 35px ;
+        margin-left:5% ;
+        margin-top:25px;
+        margin-right:5% ;
+    }
+    .desktop-third-line input{
+        width: 40%;
+        height: 35px ;
+    } 
+    .last-line-square-left{
+        margin-left:10px ;
+    }
+   
+    .last-line{
+        width: 60%;
+        margin-top:5% ; 
+    }
+
+ }
+ @media screen  and (min-width:768px){
+    body{
+        background-image: linear-gradient( #2d2d2d, #2d2d2d ) ; 
+    }
+    body>div>img:first-child{
+        display: block;
+        margin-top:2.5% ;
+    }
+    .square{
+        max-width:1080px ;
+        height: 700px;
+        margin: auto;
+        display: flex;
+        margin-top:5% ;
+    }
+    .first-line{
+        display: none;
+    }
+    .progress-bar-vertical{
+        display: flex;
+        margin-top:15% ;
+    }
+    .pregress-bar{
+       counter-reset: step ;
+    }
+    .pregress-bar li {
+        list-style-type:none ;
+        height: 100px;
+        font-family:'Roboto',sans-serif ;    
+    }
+    .pregress-bar li:before {
+        content: counter(step);
+        counter-increment: step ;
+        color: white;
+        background-color: black;
+        margin-right:30px ;
+        padding:10px ;
+        border-radius:50% ; 
+        position: relative;
+        z-index: 1;
+    }
+    .pregress-bar .renseignement:before{
+        background-color: #ED4C68;
+
+    }
+    .traie{
+        border:1px dashed black ;
+        height:300px ;
+        margin-top:8px ;
+        position: relative;
+        left:55px ;
+    }
+    .logo{
+        display: none;
+    }
+    .small-square{ 
+        height:700px;
+        margin-top:-1px ;
+        border-radius:0px 5px 5px 0px ;
+        background-image: none;
+        background-color: white;
+    }
+    .small-square .desktop-first-line{
+        margin-top: 10%;
+    }
+    input{
+        height: 40px;
+    }
+    .last-line-square-left {
+        margin-top:10% ;
+    }
+    .last-line-square-rigth{
+        margin-top:10% ;
+    }
+  
+    .selector{
+        margin-top:5.5% ;
+    }
+ }

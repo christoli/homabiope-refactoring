@@ -1,0 +1,218 @@
+body>div>img:first-child{
+    display: none;
+}
+.square{
+    border: 1px solid rgb(238, 229, 229);
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(rgba(225, 71, 86, 0.5),rgba(225, 71, 86, 0.5) ),  url(image-mobile.jpg) ; 
+    border-radius:5px;
+}
+.logo{
+    width: 100%;
+    height: 50px;
+    border-radius:5px 5px  0px  0px ;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.8),rgba(54, 54, 54, 0.8));
+   
+}
+img{
+    margin-top:10px ;
+    margin-left: 31%;
+}
+.progress-bar-vertical{
+    display: none;
+}
+.first-line{
+    border: none;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    margin-top:5% ;
+    justify-content: center;
+}
+.circle{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    line-height:25px;
+    border-radius:50% ;
+    text-align: center;
+}
+.first-writing{
+    margin-left:5% ;
+}
+.second-square{
+    border: 1px solid black;
+    width: 85%;
+    height: 750px;
+    margin: auto;
+    margin-top:5% ;
+    border-radius:5px;
+}
+.second-writing{
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-top:5% ;
+    margin: auto;
+    font-size: 20px; 
+    font-family:'Roboto',sans-serif ;         
+}
+.third-square{
+    border: none;
+    width: 90%;
+    height: 660px;
+    margin: auto;
+    margin-top:5% ;
+    background-image: linear-gradient(rgba(225, 225, 225, 0.8),rgba(225, 225, 225, 0.8) );
+    border-radius:5px;
+    font-family:'Roboto',sans-serif ;         
+}
+.third-square span{
+    display: block;
+    text-align: center;
+}
+.third-square span:first-child{
+    margin-top:10% ;
+}
+.last-line{
+    margin-top:20% ;
+}
+a{
+    text-decoration:none ;
+    margin-left:10% ;
+}
+a:hover{
+    color:red;
+}
+button{
+    border:none;
+    margin-left:40% ;
+    padding:3% 6%;
+    border-radius:15px ;
+    background-color: #ED4C68;
+    color: white;
+}
+
+@media screen and (min-width:480px){
+    .square{
+        height: 930px;
+    }
+    .second-square{
+        height: 780px;
+    }
+    .third-square{
+        height: 690px;
+    }
+    
+}
+@media screen and (min-width:600px){
+    
+    .square{
+        height: 800px;
+    }
+    img{
+        margin-left:41% ;
+    }
+    .second-square{
+        height: 600px;
+    }
+    .third-square{
+        width: 85%;
+        height: 500px;
+    }
+    .left-rigth-writing{
+        display: flex;
+    }
+    .left-writing{
+        border:none ;
+        width: 42.5%;
+        margin:5% ;
+    }
+    .rigth-writing{
+        border:none;
+        width: 42.5%;
+        margin:5% ;
+    }
+    .last-line{
+        display: block;
+    }
+    .last-line{
+        margin-top:10% ;
+    }
+    a{
+        margin-left:18% ;
+    }
+   
+}
+
+@media screen and (min-width:768px){
+    body{
+        background-image: linear-gradient( #2d2d2d, #2d2d2d ) ; 
+    }
+    body>div>img:first-child{
+        display: block;
+        margin-top:2.5% ;
+    }
+    .square{
+        max-width:1080px;
+        height: 620px;
+        margin: auto;
+        display: flex;
+        margin-top:5% ;
+    }
+    .second-square{
+        border: none;
+        height: 620px;
+        margin-top:-0.5px ;
+        border-radius:0px 5px 5px 0px ;
+        background-color: white;
+    }
+    .first-line{
+        display: none;
+    }
+    .second-writing{
+        margin-top:5% ;
+    }
+    .progress-bar-vertical{
+        display: flex;
+        margin-top:15% ;
+    }
+    .pregress-bar{
+       counter-reset: step ;
+    }
+    .pregress-bar li {
+        list-style-type:none ;
+        height: 100px;
+        font-family:'Roboto',sans-serif ;     
+    }
+    .pregress-bar li:before {
+        content: counter(step);
+        counter-increment: step ;
+        color: white;
+        background-color: black;
+        margin-right:30px ;
+        padding:10px ;
+        border-radius:50% ; 
+        position: relative;
+        z-index: 1;
+    }
+    .pregress-bar .confirmation:before{
+        background-color: #ED4C68;
+
+    }
+    .traie{
+        border:1px dashed black ;
+        height:300px ;
+        margin-top:8px ;
+        position: relative;
+        left:55px ;
+    }
+    .logo{
+        display: none;
+    }
+    .third-square{
+        background-image:none;
+    }
+}

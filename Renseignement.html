@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renseignement d'identité</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/Ajout-info.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="logo-box">
+            <img src="/assets/images/logo-blanc-transparent-homabiope.png" alt="Logo HomaBiope">
+        </div>
+        <div class="form-container">
+            <div class="image-box">
+            </div>
+            <div class="form-box">
+                <div class="form-title">
+                    <span>Renseignement d'identité</span>
+                </div>
+                <form action="/home.html">
+                    <div class="form-fullname-group">
+                        <div class="form-item right">
+                            <input type="text" name="nom" placeholder="Nom" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="prenom" placeholder="Prénom" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-item">
+                            <input type="date" name="naissance" placeholder="Date de naissance" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="lieuNaissance" placeholder="Lieu de naissance" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="situationMatrimoniale" placeholder="Situation Matrimoniale" required>
+                        </div>
+                        <div class="radio-group">
+                            <div class="form-radio">
+                                <span>Sexe :</span>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" name="homme" value="masculin" checked>
+                                <span>Homme</span>
+                            </div>
+                            <div class="form-radio">
+                                <input type="radio" name="femme" value="feminin">
+                                <span>Femme</span>
+                            </div>
+                    </div>
+                    <div class="form-bottom-item margin-size">
+                        <div class="form-submit-btn">
+                            <button type="submit">Suivant</button>
+                        </div>
+                        <div class="back">
+                            <a href="/Ajout-infos.html">
+                                <i class="fa-solid fa-arrow-left"></i><span>&nbsp;Retour</span>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

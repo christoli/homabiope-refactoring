@@ -1,0 +1,319 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+main{
+    padding: 0px 12px;
+}
+footer{
+    background-color: #f4f4f470;
+}
+section{
+    margin: 30px 0px;
+}
+#services{
+    margin-top: 80px;
+    padding: 10px 0px 25px 0px;
+    background-color: #f4f4f470;
+}
+#contact{
+    margin-bottom: 80px;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.title h2{
+    font-size: 22px;
+}
+.description-image{
+    width: 95%;
+}
+.description-image img{
+    width: 100%;
+}
+.description-text{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    padding: 0px 5px;
+}
+.description-container{
+    padding: 15px 0px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 35px #2d2d2d40;
+}
+
+/*----------------Services icon display css code - Begin - ---------------*/
+
+.id-card-icon,
+.passport-icon,
+.document-icon{
+    color:#ff4756;
+    font-size:60px
+}
+
+/*----------------Services icon display css code - End - ---------------*/
+
+.services-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 5px;
+    width: 118px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 55px #2d2d2d40;
+}
+.services-item:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #ff475630;
+    transform: scale(1,1.035);
+    transition: transform 0.3s ease-in-out;
+}
+.services-group{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.service-name{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.submit-button{
+    text-align: center;
+}
+.submit-button button{
+    font-size: 16px;
+}
+.form-container{
+   padding: 20px 20px 10px 10px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 35px #2d2d2d40;
+}
+form{
+    width: 100%;
+}
+.contact-item span{
+    font-size: 15px;
+    font-weight: 300;
+}
+.contact-item span:first-child{
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact-item span a{
+    text-decoration: none;
+    color: #ff4756;
+}
+.contact-item {
+    text-align: center;
+}
+.footer-logo{
+    width: 200px;
+    margin: 35px 0px 25px 0px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.contact-container{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----------------Mobile phone display css code----------------*/
+
+@media only screen and (max-width : 600px){
+    .description-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 35px #2d2d2d40;
+    }
+    .left-padding{
+        padding-left: 25px;
+    }
+}
+@media only screen and (min-width : 500px) and (max-width : 600px){
+    .services-container {
+        max-width: 500px;
+        margin: auto;
+    }
+    .form-container,
+     .description-container{
+        max-width: 450px;
+        margin: auto;
+    }
+}
+
+/*----------------Tablet display css code----------------*/
+
+@media only screen and (min-width : 600px) and (max-width : 768px){
+    .description-container{
+        max-width: 550px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .id-card-icon,
+    .passport-icon,
+    .document-icon{
+        font-size:80px
+    }
+    .services-container {
+        max-width: 590px;
+        margin: auto;
+    }
+    .form-container{
+        max-width: 550px;
+        margin: auto;
+    }
+    .form-item{
+        width: 48%;
+    }
+    .form-group{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width : 700px) and (max-width : 768px){
+    .description-container{
+        max-width: 600px;
+    }
+    .services-container {
+        max-width: 620px;
+    }
+}
+
+/*----------------Desktop display css code----------------*/
+
+@media only screen and (min-width : 768px){
+    .description-image{
+        width: 60%;
+        padding-left: 15px;
+    }
+    .description-btn button{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .description-text{
+        width: 40%;
+        text-align: left;
+        padding: 15px;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    .description-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .id-card-icon,
+    .passport-icon,
+    .document-icon{
+        font-size:80px;
+        margin-bottom: 10px;
+    }
+    .services-item{
+        width: 128px;
+        height: 120px;
+        margin: 0px 30px;
+    }
+    .services-container{
+        display: flex;
+        justify-content: center;
+    }
+    .form-item{
+        width: 48%;
+    }
+    .form-group{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-container {
+        max-width: 800px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .contact-item{
+        width: 30%;
+    }
+    .footer-logo{
+        width: 300px;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+@media only screen and (min-width : 1000px){
+    .title h2{
+        font-size: 25px;
+    }
+    .services-item{
+        width: 148px;
+        height: 140px;
+        margin: 0px 50px;
+    }
+    .id-card-icon,
+    .passport-icon,
+    .document-icon{
+        font-size:90px;
+    }
+    .form-container{
+        max-width: 900px;
+        height: 380px;
+    }
+    .form-item input,
+    .message-form-item textarea{
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #adaaaa;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+    .form-item input{
+        height: 30px;
+    }
+    .submit-button button{
+        font-size: 18px;
+        padding: 10px 30px;
+        margin-top: 15px;
+    }
+}
+
+/*----------------Large screen display css code----------------*/
+
+
+@media only screen and (min-width : 1080px){
+    .description-container{
+        max-width: 900px;
+    }
+}
+@media only screen and (min-width : 1920px){
+    main,
+    .contact-container{
+        max-width: 1850px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,465 @@
+/*---------------------Profil css code--------------------------*/
+
+body{
+    margin: 0px;
+}
+.banner{
+    height: 100px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.copyright{
+    color: #f4f4f4;
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.user-picture{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.user-picture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+.btn-update{
+    text-align: center;
+    margin: 8% 0%;
+}
+.btn-update button{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+main{
+    height: 100%;
+    overflow: hidden;
+}
+.red{
+    background-color: #ff4756;
+}
+.black{
+    background-color: #2d2d2d;
+}
+.grey{
+    background-color: #f4f4f4;
+}
+
+
+
+/*---------------------Profil css code-----end--------------------*/
+
+body{
+    margin: 0px;
+}
+
+.form-title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+.form-container{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 45px;
+    background-color: rgba(255, 255, 255,0.8);
+    border-radius: 5px;
+}
+.form-group,
+.form-fullname-group{
+    width: 80%;
+}
+.form-item{
+    width: 100%;
+}
+.form-item input{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    border: 1px solid #adaaaa;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.form-radio input{
+    accent-color: #ff4756;
+}
+.form-submit-btn button:hover{
+    background-color: #2d2d2d;
+}
+.form-bottom-item{
+    width: 80%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
+}
+.back{
+    text-align: left;
+    width: 50%;
+}
+.form-submit-btn{
+    width: 50%;
+    text-align: right;
+}
+.back a{
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 20px;
+}
+.back a:hover{
+    color: #ff4756;
+}
+form{
+    padding-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    padding-top: 30px;
+}
+form{
+    margin-top: 20px;
+}
+.radio-group{
+    font-size: 18px;
+    margin: 10px 0px 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.form-radio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width : 359px){
+    .form-bottom-item{
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .nom,
+    .prenom{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        font-size: 10px;
+        line-height: 1.2em;
+        margin-bottom: 5px;
+    }
+
+}
+    @media only screen and (max-width : 570px){
+    body{
+        background-image: linear-gradient(rgba(255, 71, 86,0.7), rgba(255, 71, 86,0.7)), url(/assets/images/jovaughn-stephens-3ajz-2RgEi8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 35%;
+    }
+    .form-container{
+        margin-top: 25%;
+        height: 680px;
+    }
+    .form-item input{
+        height: 35px;
+        margin-bottom: 15px;
+    }
+    .back,
+    .form-submit-btn{
+        width: 100%;
+        text-align: center;
+    }
+    .form-bottom-item{
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    /*--------------profil css code----------------*/
+    .user-infos{
+        padding: 0px 15px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-infos-item{
+        width: 100%;
+        height: 50px;
+        font-weight: 300;
+        padding: 7% 5%;
+        text-align: center;
+        font-size: 17px;
+    }
+    .nom,
+    .prenom{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    .infos-group{
+        margin: 7% 0%;
+    }
+}
+
+@media only screen and (min-width : 570px) and (max-width : 800px){
+    body{
+        background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/assets/images/jovaughn-stephens-3ajz-2RgEi8-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    }
+    .form-fullname-group{
+        display: flex;
+    }
+    .form-fullname-group .form-item{
+        width: 48%;
+    }
+    .right{
+        margin-right: 4%;
+    }
+    .form-container{
+        margin-top: 10%;
+        width: 550px;
+        height: 850px;
+        margin-bottom: 10%;
+    }
+    .form-title{
+        margin: 20px 0px;
+        font-size: 25px;
+    }
+    .form-bottom-item{
+        width: 80%;
+        margin: auto;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+    .back{
+        text-align: left;
+        width: 50%;
+    }
+    .form-submit-btn{
+        width: 50%;
+        text-align: right;
+    }
+    .form-item input{
+        height: 30px;
+        margin-bottom: 15px;
+    }
+
+    /*-----------Profil css code--------------*/
+
+    .banner{
+        margin-bottom: 15%;
+    }
+    .user-infos{
+        padding: 20px 15px;
+        margin: 30px 30px 25px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4f4f470;
+        border-radius: 20px;
+    }
+    .user-infos-item{
+        max-width: 100%;
+        height: 50px;
+        font-weight: 300;
+        padding: 7% 10%;
+        text-align: center;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profil-container{
+    }
+    .user-infos-item.whitegrey{
+        background-color: #f4f4f4;
+    }
+    .user-infos-item.grey{
+        background-color: rgb(191, 178, 178);
+    }
+    .user-infos-item.black{
+        background-color: #f4f4f4;
+    }
+    .nom,
+    .prenom{
+        display: inline-block;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .infos-group{
+        margin: 7% 0%;
+    }
+    .btn-update{
+        text-align: center;
+        padding: 8% 0%;
+        background-color: rgb(240, 235, 235);
+        margin: 0%;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+}
+@media only screen and (min-width : 800px){
+    body{
+        background-color: #2d2d2d;
+    }
+    main{
+        margin-top: 3%;
+    }
+    .logo-box{
+        margin-top: 2%;
+    }
+    .logo-box img{
+        width: 300px;
+    }
+    .form-title{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .image-box{
+        background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/assets/images/jovaughn-stephens-3ajz-2RgEi8-unsplash.jpg);
+        background-position: left 25% bottom 70%;
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .form-box{
+        height: 100%;
+    }
+    form{
+        margin-top: 70px;
+    }
+    .form-item input{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .form-fullname-group{
+        display: flex;
+    }
+    .form-fullname-group .form-item{
+        width: 48%;
+    }
+    .form-bottom-item{
+        margin-top: 70px;
+        margin: auto;
+        width: 100%;
+    }
+    .right{
+        margin-right: 4%;
+    }
+    .form-box{
+        width: 60%;
+    }
+    .margin-size{
+        margin-top: 80px;
+    }
+    .width-80{
+        width: 80%;
+    }
+    .form-container{
+        height: 650px;
+        background-color: #fff;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 50px;
+        max-width: 1080px; 
+    }
+
+    /*--------------Profil css code---------------*/
+
+    .banner{
+        display: none;
+    }
+    .user-infos{
+        padding: 20px 15px;
+        margin: 30px 30px 25px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f4f4f470;
+        border-radius: 20px;
+    }
+    .user-infos-item{
+        max-width: 100%;
+        height: 50px;
+        font-weight: 300;
+        padding: 7% 10%;
+        text-align: center;
+        font-size: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profil-container{
+    }
+    .user-infos-item.whitegrey{
+        background-color: #f4f4f4;
+    }
+    .user-infos-item.grey{
+        background-color: rgb(191, 178, 178);
+    }
+    .user-infos-item.black{
+        background-color: #f4f4f4;
+    }
+    .nom,
+    .prenom{
+        display: inline-block;
+        margin: 10px;
+        font-size: 30px;
+    }
+    .phone,
+    .email,
+    .sexe,
+    .adresse{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .infos-group{
+        margin: 7% 0%;
+    }
+    .btn-update{
+        text-align: center;
+        padding: 8% 0%;
+        background-color: rgb(240, 235, 235);
+        margin: 0%;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+
+}

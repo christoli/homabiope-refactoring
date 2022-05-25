@@ -1,0 +1,202 @@
+    body{
+        margin: 0px;
+    }
+    .logo-box img{
+        width: 40%;
+    }
+    .logo-box{
+        max-width: 100%;
+        text-align: center;
+        padding: 15px;
+        background-color: #2d2d2d80;
+    }
+    .form-title{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .form-container{
+        width: 90%;
+        height: 500px;
+        margin: auto;
+        margin-top: 45px;
+        background-color: rgba(255, 255, 255,0.8);
+        border-radius: 5px;
+    }
+    .form-group,
+    .form-fullname-group{
+        width: 80%;
+    }
+    .form-item{
+        width: 100%;
+    }
+    .form-item input{
+        width: 100%;
+        height: 25px;
+        margin-bottom: 10px;
+        border: 1px solid #adaaaa;
+        border-radius: 5px;
+        padding-left: 5px;
+    }
+    .form-radio input{
+        accent-color: #ff4756;
+    }
+    .form-submit-btn button{
+        border: none;
+        color: #fff;
+        font-size: 15px;
+        font-family:'Roboto', sans-serif;
+        background-color: #ff4756;
+        padding: 8px 20px;
+        border-radius: 15px;
+        margin : 5px 0px 15px 0px;
+    }
+    .form-submit-btn button:hover{
+        background-color: #2d2d2d;
+    }
+    .form-bottom-item{
+        width: 80%;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+    .back{
+        text-align: left;
+        width: 50%;
+    }
+    .form-submit-btn{
+        width: 50%;
+        text-align: right;
+    }
+    .back a{
+        text-decoration: none;
+        color: #2d2d2d;
+    }
+    .back a:hover{
+        color: #ff4756;
+    }
+    form{
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-box{
+        padding-top: 30px;
+    }
+    form{
+        margin-top: 20px;
+    }
+    .radio-group{
+        margin: 10px 0px 20px 0px;
+        display: flex;
+        justify-content: center;
+    }
+@media only screen and (max-width : 570px){
+        body{
+            background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/images/search-information-internet-via-portable-laptop-computer.jpg);
+        }
+        .back,
+        .form-submit-btn{
+            width: 100%;
+            text-align: center;
+        }
+        .form-bottom-item{
+            width: 80%;
+            margin-top: 8px;
+            display: block;
+        }
+    }
+
+@media only screen and (min-width : 570px) and (max-width : 768px){
+    body{
+        background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/images/search-information-internet-via-portable-laptop-computer.jpg);
+
+    }
+    .form-fullname-group{
+        display: flex;
+    }
+    .form-fullname-group .form-item{
+        width: 48%;
+    }
+    .right{
+        margin-right: 4%;
+    }
+    .form-container{
+        max-width: 500px;
+    }
+    .form-bottom-item{
+        width: 80%;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
+    }
+    .back{
+        text-align: left;
+        width: 50%;
+    }
+    .form-submit-btn{
+        width: 50%;
+        text-align: right;
+    }
+    .form-item input{
+        height: 30px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (min-width : 768px){
+    body{
+        background-color: #2d2d2d;
+    }
+    .logo-box{
+        margin-top: 2%;
+    }
+    .logo-box img{
+        width: 15%;
+    }
+    .form-title{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .image-box{
+        background-image: linear-gradient(rgba(255, 71, 86,0.5), rgba(255, 71, 86,0.5)), url(/images/search-information-internet-via-portable-laptop-computer.jpg);
+        background-position: left 25% bottom 45%;
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .form-box{
+        height: 100%;
+    }
+    .form-item input{
+        width: 100%;
+        height: 40px;
+        margin-bottom: 15px;
+    }
+    .form-fullname-group{
+        display: flex;
+    }
+    .form-fullname-group .form-item{
+        width: 48%;
+    }
+    .form-bottom-item{
+        margin-top: 40px;
+    }
+    .right{
+        margin-right: 4%;
+    }
+    .form-box{
+        width: 60%;
+    }
+    .form-container{
+        height: 650px;
+        background-color: #fff;
+        display: flex;
+        border-radius: 10px;
+        margin-top: 3%;
+        max-width: 1080px; 
+    }
+}

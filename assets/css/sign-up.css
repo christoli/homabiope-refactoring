@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2d2d2d;
+    margin: 0px;
+    padding: 0px;
+}
+
+.big-container {
+    background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/assets/images/search-information-internet-via-portable-laptop-computer-mobile-version.jpg);
+    background-size: cover;
+    padding-bottom: 10%;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+.logo img {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    background-color: #2d2d2d95;
+    padding-bottom: 10px;
+}
+.form-container {
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.name-container {
+    margin-top: 30px;
+}
+.name,
+.email,
+.password,
+.tel,
+.adress {
+    text-align: center;
+}
+.name input,
+.email input,
+.password input,
+.tel input,
+.adress input {
+    margin-bottom: 20px;
+    width: 85%;
+    border-radius: 5px;
+    border: 1px solid #adaaaa;
+    padding: 10px;
+}
+.name input {
+    margin-top: 15px;
+}
+.inscription button {
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #ff4756;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.inscription-item{
+    display: flex;
+    align-items: baseline;
+    width: 80%;
+    margin: auto;
+}
+.inscription{
+    width: 100%;
+        text-align: right;
+}
+.back{
+    text-align: left;
+    width: 50%;
+}
+.back a{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+a:hover{
+    color: #ff4756;
+    }
+button:hover {
+    background-color: #2d2d2d;
+}
+
+/*button:hover {
+    transform: scale(1, 1.3);
+    transition: transform 0.3s ease-in-out;
+}*/
+
+.sex {
+    font-size: 25px;
+    width: 85%;
+    height: 35px;
+    margin: auto;
+}
+.male-female-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 20px 0px;
+}
+
+@media only screen and (min-width:600px) {
+    .form-container {
+        max-width: 550px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .big-container {
+        background: none;
+        max-width: 1080px;
+        margin: auto;
+        margin-top: 12%;
+
+    }
+    .form-container {
+        width: 150%;
+    }
+
+    .logo-container {
+        background-image: linear-gradient(rgba(255, 71, 86, 0.5), rgba(255, 71, 86, 0.5)), url(/assets/images/search-information-internet-via-portable-laptop-computer.jpg);
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;
+        width: 50%;
+    }
+    .logo-and-form-container {
+        display: flex;
+    }
+    .inscription button {
+        margin-bottom: 40px;
+    }
+    .name-container,
+    .password-container,
+    .male-female-tel-container {
+        display: flex;
+        justify-content: space-around;
+    }
+    .name,.password,.male-female-container,.tel{
+        width: 40%;
+    }
+    .email,.adress{
+     width: 90%;
+     margin: auto;
+    }
+    .name input,
+    .password input,
+    .tel input{
+       width: 100%;
+    }
+    .email input,
+    .adress input {
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout d'information</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/Ajout-info.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="logo-box">
+            <img src="assets/images/logo-blanc-transparent-homabiope.png" alt="Logo HomaBiope">
+        </div>
+        <div class="form-container">
+            <div class="image-box">
+            </div>
+            <div class="form-box">
+                <div class="form-title">
+                    <span>Ajout d'informations</span>
+                </div>
+                <form action="/Renseignement.html">
+                    <div class="form-fullname-group">
+                        <div class="form-item right">
+                            <input type="text" name="num-acte" placeholder="Numéro de l'acte" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="num-nationalite" placeholder="Numéro de la nationalité" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-item">
+                            <input type="text" name="num-registre" placeholder="Numéro régistre" required>
+                        </div>
+                        <div class="form-title">
+                            <span>Personne à prévenir</span>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" name="nomComplet" placeholder="Nom complet" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="tel" name="telephone" placeholder="Telephone" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="file" name="fichier" placeholder="Choisir un fichier">
+                        </div>
+                    </div>
+                    <div class="form-bottom-item width-80">
+                        <div class="form-submit-btn">
+                            <button type="submit">Suivant</button>
+                        </div>
+                        <div class="back">
+                            <a href="/choix-demande.html">
+                                <i class="fa-solid fa-arrow-left"></i><span>&nbsp;Retour</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap%27');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #cdc2c2;
+    margin: 0px;
+    padding: 0px;
+}
+.big-container{
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.logo img {
+    width: 70%;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.logo {
+    width: 100%;
+}
+header{
+    margin-bottom: 5%;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.request a, .historique a,.compte a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.request a, .historique a{
+    margin-right: 10px;
+}
+a:hover{
+    color: #ff4756;
+    }
+.menus-bar{
+    width: 60%;
+}
+.compte{
+    text-align: center;
+    margin-top: 20px;
+}   
+h2{
+    text-align: center;
+    color: #2d2d2d;
+}
+.table-container{
+    color:#2d2d2d;
+}
+td{
+    height: 50px;
+    border: 1px solid #2d2d2d;
+}
+th{
+    height: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #2d2d2d;
+}
+.eye{
+    margin: 10px 0px 10px 10%;
+    color:#2d2d2d95; 
+}
+.delete{
+    margin: 17%;
+    color:#2d2d2d;; 
+}
+.white-backgrowd{
+    background-color: rgb(241, 238, 238);
+    border-radius: 15px;
+    max-width: 90%;
+    margin: auto;
+    padding: 40px;
+    padding-bottom: 70px;
+}
+@media only screen and (min-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo img{
+        max-width: 350px;
+    }
+    .action{
+        padding: 5px 15px;
+    }
+    .action a{
+        margin: 5px;
+    }
+    .request a, .historique a,.compte a{
+        font-size: 27px;
+    }
+    .white-backgrowd{
+        margin-top: 32%;
+        margin-bottom: 33%;
+        max-width: 90%;
+        padding: 10px;
+        padding-left: 40px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width:992px){
+    body{
+        overflow-x: hidden;
+    }
+    .menu-bar{
+        width: 47%;
+        justify-content: space-between;
+    }
+    .menus-bar{
+        display: flex;
+        justify-content: space-around;
+        font-size: 22px;
+    }
+    .request a, .historique a{
+        margin-right:20px;
+        padding: 0;
+    }
+    .historique a{
+        margin-left: 20%;
+    }
+    .compte{
+        margin-top: -0.5px;
+    }
+    .logo{
+        height: 150px;
+        width: 45%;
+        margin-top: 20px;
+    }
+    h2{
+        margin: 50px;
+        font-size: 35px;
+    }
+    th{
+        font-size: 22px;
+        padding: 15px;
+    }
+    td{
+        font-size: 18px;
+        text-align: center;
+    }
+    .big-container{
+        max-width: 1050px;
+        margin: auto;
+    }
+    .white-backgrowd{
+        margin: auto;
+        padding: 40px;
+        padding-bottom: 70px;
+    }
+    .action{
+        padding: 5px 20px;
+    }
+    .action a{
+        margin: 5px;
+    }
+    
+    
+}
